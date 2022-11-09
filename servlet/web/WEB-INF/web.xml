@@ -6,6 +6,14 @@
     <servlet>
         <servlet-name>HelloServlet</servlet-name>
         <servlet-class>cn.ztz.HelloServlet</servlet-class>
+        <init-param>
+            <param-name>username</param-name>
+            <param-value>ztz</param-value>
+        </init-param>
+        <init-param>
+            <param-name>url</param-name>
+            <param-value>jdbc:mysql://localhost:3306</param-value>
+        </init-param>
     </servlet>
     <servlet>
         <servlet-name>HelloServlet2</servlet-name>
